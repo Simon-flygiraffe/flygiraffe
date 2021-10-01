@@ -115,7 +115,7 @@ def main():
                     f.write("SYSTEM INFO FOR HOST:\n" + str(get_hostname(ssh)) + "IP address: " + str(host) + "\n" + "System Time: " + str(get_time(ssh)) + "\n\n" + "CPU Model: \n" +
                                       str(get_cpu(ssh)) + "\n\n" + "Number of CPU's: \n" + str(get_cpu_count(ssh)) + "\n\n" +
                                       "Installed NIC Driver:\n" + str(get_nic(ssh)) + "\n\n" +
-                                      "Installed Drivers:\n" + str(get_drivers(ssh)) + "\n\n" + ""END OF REPORT FOR THIS HOST " + ' > '*30 + " NEXT HOST..." + "\n\n")
+                                      "Installed Drivers:\n" + str(get_drivers(ssh)) + "\n\n" + "END OF REPORT FOR THIS HOST " + ' > '*30 + " NEXT HOST..." + "\n\n")
                         
                     
                     #print to console that file was created with file path
