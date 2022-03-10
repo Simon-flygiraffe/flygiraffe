@@ -1,6 +1,6 @@
 Created on Fri Jul  2 18:17:18 2021
 @author: sgolan
-                                **Hi User** !  This script is performs the following:
+                              #  **Hi User** !  This script is performs the following:
 
 - receives a list of linux servers, ssh to each one & retrieves a system info from each one of them and aggregates in one reporting file:
 - Information which will be retrieved : | hostname | System Time | num of CPUs | CPU models | NIC installed | drives installed |
